@@ -129,7 +129,7 @@ func main() {
 		var (
 			err, sent int32
 		)
-		fmt.Println("Lượt Attack dự định |\tLượt Attack |\tLượt Attack Err")
+		fmt.Println("Lượt Attack dự định|\tLượt Attack|\tLượt Attack Err")
 		for {
 			if atomic.LoadInt32(&cur) < int32(maxproc-1) {
 				go httpcall(site, u.Host, data, headers, ss)
