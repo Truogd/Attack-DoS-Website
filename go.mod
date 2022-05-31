@@ -1,3 +1,3 @@
-module github.com/Truogd/DoS-Kaisa-Tools
+module github.com/Truogd/kaisa
 
 go 1.16
