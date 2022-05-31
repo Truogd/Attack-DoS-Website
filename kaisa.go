@@ -5,7 +5,7 @@ package main
  Original Python utility by Barry Shteiman http://www.sectorix.com/2012/05/17/hulk-web-server-dos-tool/
 
  This go program licensed under GPLv3.
- Copyright Duong Quang Truong <truongres3@gmail.com>
+ Copyright Duong Quang Truong <tuogd.official@gmail.com>
 */
 
 import (
