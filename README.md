@@ -34,10 +34,9 @@ this utility used by other people, got some stars on github and even included in
 License
 =======
 
-I think it may be public domain because of it is just simple and short piece of code but for reason I don't remember already
-I have choose GPL for it. Okey. So, Go version of KAISA licensed under GPLv3. See LICENSE.
+Tôi nghĩ nó có thể là miền công cộng vì nó chỉ là một đoạn mã ngắn và đơn giản nhưng vì lý do gì tôi không nhớ nên tôi đã chọn GPL cho nó. Được rồi. Vì vậy, phiên bản Go của KAISA được cấp phép theo GPLv3. Xem LICENSE.
 
-I am not related with original KAISA utility in Python. Original KAISA utility is authority of Barry Shteiman (http://sectorix.com). There are not any references to license in the original source then it is not under GPL. Ask author of the original utility about license. 
+Tôi không liên quan đến tiện ích KAISA gốc bằng Python. Tiện ích KAISA gốc là quyền của Barry Shteiman (http://sectorix.com). Không có bất kỳ tham chiếu nào đến giấy phép trong nguồn gốc thì nó không thuộc GPL. Hỏi tác giả của tiện ích ban đầu về giấy phép.
 
 Cách Sử Dụng
 =======
@@ -50,5 +49,8 @@ Cách Sử Dụng
 5. cd kaisa
 6. go run kaisa.go -site (URL)
 
+Cảnh Báo !
+=======
 
+Hệ thống chỉ mang mục đích thử nghiệm độ chịu đựng của website, không dành cho mục đích phá hoại tổ chức hoặc cá nhân. Cân nhắc!
 
