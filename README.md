@@ -38,5 +38,17 @@ I think it may be public domain because of it is just simple and short piece of 
 I have choose GPL for it. Okey. So, Go version of KAISA licensed under GPLv3. See LICENSE.
 
 I am not related with original KAISA utility in Python. Original KAISA utility is authority of Barry Shteiman (http://sectorix.com). There are not any references to license in the original source then it is not under GPL. Ask author of the original utility about license. 
- 
+
+Cách Sử Dụng
+=======
+* Trên shell.cloud.google.com
+
+1. sudo apt install golang
+2. sudo apt install git
+3. git clone https://github.com/Truogd/kaisa.git
+4. sudo apt update (có thể bỏ qua)
+5. cd kaisa
+6. go run kaisa.go -site (URL)
+
+
 
