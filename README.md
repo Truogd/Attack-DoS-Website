@@ -15,9 +15,9 @@ This tool targeted for stress testing and may really down badly configured serve
 
 Examples:
 
-    $ hulk -site http://example.com/test/ 2>/dev/null
+    $ kaisa -site http://example.com/test/ 2>/dev/null
 
-    $ HULKMAXPROCS=4096 hulk -site http://example.com 2>/tmp/errlog
+    $ HULKMAXPROCS=4096 kaisa -site http://example.com 2>/tmp/errlog
 
 Useful environment vars:
 
