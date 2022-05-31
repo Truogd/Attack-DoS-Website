@@ -37,12 +37,12 @@ Cách Sử Dụng
 =======
 * Trên shell.cloud.google.com
 
-1. sudo apt install golang
-2. sudo apt install git
-3. git clone https://github.com/Truogd/kaisa.git
-4. sudo apt update (có thể bỏ qua)
-5. cd kaisa
-6. go run kaisa.go -site (URL)
+$ 1. sudo apt install golang
+$ 2. sudo apt install git
+$ 3. git clone https://github.com/Truogd/kaisa.git
+$ 4. sudo apt update (có thể bỏ qua)
+$ 5. cd kaisa
+$ 6. go run kaisa.go -site (URL)
 
 Cảnh Báo !
 =======
