@@ -1,11 +1,11 @@
 package main
 
 /*
- HULK DoS tool on <strike>steroids</strike> goroutines. Just ported from Python with some improvements.
+ KAISA DoS tool on <strike>steroids</strike> goroutines. Just ported from Python with some improvements.
  Original Python utility by Barry Shteiman http://www.sectorix.com/2012/05/17/hulk-web-server-dos-tool/
 
  This go program licensed under GPLv3.
- Copyright Alexander I.Grafov <grafov@gmail.com>
+ Copyright Duong Quang Truong <truongres3@gmail.com>
 */
 
 import (
@@ -104,7 +104,7 @@ func main() {
 	}
 
 	if version {
-		fmt.Println("Hulk", __version__)
+		fmt.Println("Kaisa", __version__)
 		os.Exit(0)
 	}
 
@@ -124,7 +124,7 @@ func main() {
 	}
 
 	go func() {
-		fmt.Println("-- HULK Attack Started --\n           Go!\n\n")
+		fmt.Println("-- KAISA Attack Started --\n           Go!\n\n")
 		ss := make(chan uint8, 8)
 		var (
 			err, sent int32
@@ -149,7 +149,7 @@ func main() {
 			case targetComplete:
 				sent++
 				fmt.Printf("\r%-6d of max %-6d |\t%7d |\t%6d", cur, maxproc, sent, err)
-				fmt.Println("\r-- HULK Attack Finished --       \n\n\r")
+				fmt.Println("\r-- KAISA Attack Finished --       \n\n\r")
 				os.Exit(0)
 			}
 		}
@@ -158,7 +158,7 @@ func main() {
 	ctlc := make(chan os.Signal)
 	signal.Notify(ctlc, syscall.SIGINT, syscall.SIGKILL, syscall.SIGTERM)
 	<-ctlc
-	fmt.Println("\r\n-- Interrupted by user --        \n")
+	fmt.Println("\r\n-- Thao tác hủy bởi người dùng --        \n")
 }
 
 func httpcall(url string, host string, data string, headers arrayFlags, s chan uint8) {
