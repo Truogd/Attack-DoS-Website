@@ -124,7 +124,7 @@ func main() {
 	}
 
 	go func() {
-		fmt.Println("-- KAISA Attack Started --\n           Go!\n\n")
+		fmt.Println("-- KAISA Attack Started --\n           Géttttt Goooo!\n\n")
 		ss := make(chan uint8, 8)
 		var (
 			err, sent int32
